@@ -1,0 +1,411 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+		}
+.container{
+	width: 100%;
+	height:4500px;
+	background-color: black;
+}
+.header{
+	width: 100%;
+	height: 700px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./images/head.jpg);
+	border-bottom: 8px  solid #232323;
+}
+.nav{
+	width: 100%;
+	height: 90px;
+
+}
+.logo{
+	width: 40%;
+	height: 90px;
+	float: left;
+}
+.logo img{
+	width: 200px;
+	height: 120px;
+	position: relative;
+	left: 147px;
+	bottom: 14px;
+}
+.menu{
+	width: 60%;
+	height: 90px;
+	float: left;
+}
+.fa-solid{
+	color: white;
+}
+.btn1{
+	background-color: black;
+	opacity: 0.6;
+	position: relative;
+	left: 458px;
+	top: 20px;
+	border: none;
+	border-radius:7px;
+}
+select{
+	width: 140px;
+	height: 40px;
+	color: white;
+	border: none;
+	background-color: black;
+}
+option{
+	background-color: white;
+}
+.btn2{
+	width: 120px;
+	height: 40px;
+	background-color:#E50914 ;
+	color: white;
+	position: relative;
+	left: 480px;
+	top: 20px;
+	border: none;
+	border-radius:5px;
+	}
+.headinfo{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 180px;
+	
+	}
+
+.headinfo h1{
+	color: white;
+	font-weight:bold;
+	font-size: 50px;
+	text-align: center;
+}
+
+.headinfo h2{
+	color: white;
+	margin-top: 30px;
+  text-align: center;
+}
+.headinfo h3{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+  .headinfo input{
+	width: 400px;
+	height: 60px;
+	opacity: 0.6;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	position: relative;
+	left: 222px;
+	top: 26px;
+	background-color: black;
+}
+ .headinfo .btn3{
+ 	width: 180px;
+ 	height: 60px;
+ 	color: white;
+ 	font-size: 25px;
+ 	border-radius:5px;
+ 	border: none;
+ 	position: relative;
+	left: 226px;
+	top: 28px;
+ 	background-color:#E50914;
+ }
+
+
+
+/*---------------------------------head 2------------------------------------ */
+ .head2{
+ 	width: 100%;
+ 	height: 500px;
+ 	position: relative;
+ 	top: 30px;
+ 	background-color: black;
+	border-bottom: 8px  solid #232323;
+ }
+ .txt1{
+ 	position: relative;
+  bottom: 323px;
+  left: 183px;
+ }
+.txt1 h1{
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.txt1 p{
+	color: white;
+	font-size: 25px;
+}
+.headimg img{
+	    position: relative;
+	    left: 744px;
+	    z-index: 1;
+}
+.video{
+	  position: relative;
+    left: 822px;
+    bottom: 387px;
+}
+
+/*-----------------------------------------mobile-------------------------------*/
+
+  .head3{
+  	width: 100%;
+  	height: 500px;
+    border-bottom: 8px  solid #232323;
+  }
+  .txt2{
+  	position: relative;
+  	left: 621px;
+    bottom: 405px;
+
+  }
+  .txt2 h1{
+  color: white;
+  font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+   .txt2 p{
+   	color: white;
+   	font-size: 25px;
+   }
+  .mobimg img{
+  	position: relative;
+    top: -58px;
+  }
+  .gif{
+     width: 369px;
+    height: 115px;
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid grey;
+    position: relative;
+    left: 137px;
+    bottom: 204px;
+  }
+  .g1{
+    width: 67px;
+    height: 95px;
+    position: relative;
+    left: 8px;
+    top: 9px;
+  }
+  .g2{
+      width: 69px;
+    height: 69px;
+    position: relative;
+    left: 212px;
+    top: -5px;
+}
+.head3 h1{
+	color: white;
+	font-size: 25px;
+}
+.head3 p{
+	color: #0071EB;
+}
+.txt{
+	position: relative;
+	    left: 101px;
+    bottom: 63px;
+}
+  
+
+/*---------------------------------------------appletv--------------------------*/
+.head4{
+	 	width: 100%;
+  	height: 480px;
+  	border-bottom: 8px  solid #232323;
+}
+.appletv{
+    position: relative;
+    left: 774px;
+    top: -106px;
+    z-index: 1;
+}
+.txt3{
+	position: relative;
+ left: 234px;
+  bottom: 462px;
+
+}
+.txt3 h1{
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.txt3 p{
+	color: white;
+	font-size: 25px;
+
+}
+.video2{
+	position: relative;
+	left: 892px;
+	bottom: 630px;
+}
+.vid3{
+	width: 410px;
+	height: 400px;
+}
+/*---------------------------------------------children----------------------------*/
+.head5{
+	width: 100%;
+	height: 400px;
+	border-bottom: 8px  solid #232323;
+}
+.head5 img{
+	position: relative;
+	left: 92px;
+	bottom: 140px;
+}
+.txt4{
+	position: relative;
+	bottom: 389px;
+  left: 767px;
+}
+.txt4 h1{
+ color: white;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.txt4 p{
+	color: white;
+	font-size: 25px;
+}
+/*------------------------foot1--------------------------------*/
+
+.foot1{
+	width: 100%;
+	height: 900px;
+	border-bottom: 8px  solid #232323;
+}
+.foot1 h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	bottom: 105px;
+
+}
+.foot1 p{
+	color: white;
+	font-size: 25px;
+	margin-top: 85px;
+	text-align: center;
+
+}
+.f1{
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+}
+.rec{
+width: 100%;
+height: 85px;
+margin-bottom: 10px;
+background-color: #414141;
+}
+.rec:hover{
+	background-color: #423e3e;
+}
+.rec h2{
+	color: white;
+	line-height: 85px;
+	margin-left: 15px;
+}
+.fa-plus{
+	font-size: 45px;
+	position: relative;
+  left: 1086px;
+  bottom: 73px;
+}
+.inp2{
+	width: 400px;
+	height: 60px;
+	opacity: 0.6;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: black;
+	position: relative;
+	left: 261px;
+  top: 30px;
+}
+.btn4{
+	 	width: 180px;
+ 	height: 60px;
+ 	color: white;
+ 	font-size: 25px;
+ 	border-radius:5px;
+ 	border: none;
+ 	background-color:#E50914;
+ 	position: relative;
+	left: 270px;
+  top: 32px;
+}
+/*--------------------foot2---------------------*/
+.foot2{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	float: left;
+}
+.foot2 h4{
+	color: white;
+	position: relative;
+	    top: 117px;
+    left: 163px;
+}
+.foot2 p{
+	color: white;
+	font-size: 20px;
+	position: relative;
+  top: 348px;
+  right: 1185px;
+}
+ .fa1{
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin-top: 135px;
+}
+.fa1.a{
+	margin-left: 146px;
+
+}
+.fa1 ul li a{
+	margin-left: 20px;	
+	line-height: 35px;	
+	color: white;
+}
+.fa1 ul li{
+	list-style: none;
+}
+.fa2{
+	position: relative;
+ top: 329px;
+  right: 1185px;
+}
+.fa2 .bnt-9{
+	background-color: black;
+	opacity: 0.6;
+	border: none;
+	border-radius:7px;
+  
+}
